@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Outfit", sans-serif;
+}
+
+body{
+    background-color: #0D1A2D;
+    min-height: 100vh;
+}
+
+.card{
+    height: 600px;
+    width: 350px;
+    background-color: #15273F;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 16px;
+    position: fixed;
+    inset: 0;
+    margin: auto;
+    padding: 20px;
+}
+
+.card img{
+    width: 100%;
+   display: block;
+   border-radius: 16px;
+}
+
+.card h3{
+    color: white;
+    padding-left: 16px;
+    padding-top: 8px;
+}
+
+#par{
+    color: white;
+    padding: 16px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 16px;
+    padding-right:16px;
+    padding-top: 8px;
+}
+
+.arrow { 
+    display: inline-flex;
+    gap: 8px;
+    color:  hsl(215, 51%, 70%);
+}
+.clock { 
+    display: inline-flex;
+    gap: 8px;
+    color:  hsl(215, 51%, 70%);
+}
+
+.line{
+   width: 300px; 
+   border: none;
+   height: 1px;
+   background-color: white;
+   margin: 10px auto;
+}
+
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+}
+
+.circle img{
+    width: 100%;
+}
+
+.profile { 
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    color:  hsl(0, 0%, 100%);
+    padding: 16px;
+}
+
+.profile span{
+ color: hsl(215, 51%, 70%);
+}
+
+
